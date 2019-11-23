@@ -24,9 +24,15 @@
               "src/assets"
             ],
             "styles": [
+            "../ProjectDashboard/node_modules/bootstrap/dist/css/bootstrap.min.css",
               "src/styles.css"
             ],
-            "scripts": []
+            "scripts": [
+              "../ProjectDashboard/node_modules/jquery/dist/jquery.min.js",
+              "../ProjectDashboard/node_modules/bootstrap/dist/js/bootstrap.min.js",
+              "../ProjectDashboard/node_modules/chart.js/dist/Chart.min.js",
+              "../ProjectDashboard/node_modules/popper.js/dist/umd/popper.min.js",
+            ]
           },
           "configurations": {
             "production": {
