@@ -11,6 +11,9 @@ import { SectionOrdersComponent } from './section-orders/section-orders.componen
 import { SectionHealthComponent } from './section-health/section-health.component';
 
 import { appRoutes } from 'src/routes';
+import { BarChartComponent } from './bar-chart/bar-chart.component';
+import { LineChartComponent } from './line-chart/line-chart.component';
+import { PieChartComponent } from './pie-chart/pie-chart.component';
 
 @NgModule({
   declarations: [
@@ -19,7 +22,10 @@ import { appRoutes } from 'src/routes';
     NavbarComponent,
     SectionSalesComponent,
     SectionOrdersComponent,
-    SectionHealthComponent
+    SectionHealthComponent,
+    BarChartComponent,
+    LineChartComponent,
+    PieChartComponent
   ],
   imports: [
     BrowserModule,
